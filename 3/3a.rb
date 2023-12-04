@@ -4,7 +4,7 @@ DY = [0, 0, 1, -1, 1, -1, 1, -1]
 
 grid = []
 
-ARGF.each { |line| grid << line.strip }
+ARGF.each { |line| grid << "#{line.strip}." }
 
 sum = 0
 
